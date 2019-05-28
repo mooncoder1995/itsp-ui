@@ -3,48 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="a892b6b7-7207-436f-9d70-d322588e5439" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__mocks__/charts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__mocks__/charts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__mocks__/crud.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__mocks__/crud.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__mocks__/datatable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__mocks__/datatable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__mocks__/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__mocks__/demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__mocks__/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__mocks__/form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__mocks__/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__mocks__/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__mocks__/tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__mocks__/tree.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__mocks__/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__mocks__/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SideBar/LeftSideBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SideBar/LeftSideBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/global.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/ChangePassword/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/ChangePassword/components/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Community/Topic/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Community/Topic/components/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Community/TopicIntro/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Community/TopicIntro/components/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Course/Assign/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Course/Assign/components/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Course/Inform/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Course/Inform/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Course/Inform/components/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Course/Inform/components/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Course/Lessons/DetailIntro/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Course/Lessons/DetailIntro/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Course/Lessons/DetailIntro/components/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Course/Lessons/DetailIntro/components/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Course/Lessons/PerCourseComment/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Course/Lessons/PerCourseComment/components/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Course/Lessons/Summary/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Course/Lessons/Summary/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Course/Lessons/Summary/components/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Course/Lessons/Summary/components/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Home/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Home/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Home/components/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Home/components/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/HomeWork/Check/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/HomeWork/Check/components/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/HomeWork/Edit/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/HomeWork/Edit/components/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/HomeWork/Handle/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/HomeWork/Handle/components/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/HomeWork/Preview/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/HomeWork/Preview/components/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Login/service/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Login/service/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/StuManagement/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/StuManagement/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupProxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupProxy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/routes/Blank/components/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/routes/Blank/components/index.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/routes/Blank/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/routes/Blank/model/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/routes/Blank/service/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/routes/CRUD/components/columns.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/routes/CRUD/components/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/routes/CRUD/components/index.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/routes/CRUD/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/routes/CRUD/model/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/routes/CRUD/service/index.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -146,26 +120,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="502" />
+          <entry key="js" value="547" />
           <entry key="less" value="164" />
+          <entry key="txt" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="502" />
+          <entry key="JavaScript" value="547" />
           <entry key="Less" value="164" />
+          <entry key="PLAIN_TEXT" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="23" />
-          <entry key="less" value="9" />
+          <entry key="js" value="56" />
+          <entry key="less" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="23" />
-          <entry key="Less" value="9" />
+          <entry key="JavaScript" value="56" />
+          <entry key="Less" value="10" />
         </counts>
       </usages-collector>
     </session>
@@ -175,20 +151,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/routes/Community/TopicIntro/components/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/Course/Lessons/PerCourseComment/components/index.js">
+        <entry file="file://$PROJECT_DIR$/src/routes/Course/Inform/components/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="143" column="152" selection-start-line="143" selection-start-column="22" selection-end-line="143" selection-end-column="152" />
+            <state relative-caret-position="-101">
+              <caret line="89" column="50" selection-start-line="89" selection-start-column="50" selection-end-line="89" selection-end-column="50" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -197,10 +164,109 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/Login/components/index.js">
+        <entry file="file://$PROJECT_DIR$/src/routes/Course/Lessons/DetailIntro/components/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" selection-end-column="54" />
+            <state relative-caret-position="-552">
+              <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/Course/Lessons/PerCourseComment/components/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1747">
+              <caret line="79" column="42" selection-start-line="79" selection-start-column="42" selection-end-line="79" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/Course/Lessons/Summary/components/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1109">
+              <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/Home/components/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="984">
+              <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/HomeWork/Check/components/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1896">
+              <caret line="44" column="51" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/HomeWork/Edit/components/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-557">
+              <caret line="101" column="51" selection-start-line="101" selection-start-column="51" selection-end-line="101" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/HomeWork/Handle/components/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="96" column="50" selection-start-line="96" selection-start-column="50" selection-end-line="96" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/routes/HomeWork/Preview/components/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1051">
+              <caret line="44" column="51" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/Course/Assign/components/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1176">
+              <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -284,30 +350,30 @@
         <option value="$PROJECT_DIR$/src/routes/StuManagement/components/InfoForm.js" />
         <option value="$PROJECT_DIR$/src/routes/Login/components/index.js" />
         <option value="$PROJECT_DIR$/src/layouts/BasicLayout.js" />
-        <option value="$PROJECT_DIR$/src/models/global.js" />
-        <option value="$PROJECT_DIR$/src/routes/Course/Assign/components/index.js" />
-        <option value="$PROJECT_DIR$/src/routes/HomeWork/Check/components/index.js" />
-        <option value="$PROJECT_DIR$/src/routes/HomeWork/Edit/components/index.js" />
+        <option value="$PROJECT_DIR$/src/routes/index.js" />
+        <option value="$PROJECT_DIR$/src/routes/Course/Lessons/Summary/components/index.less" />
+        <option value="$PROJECT_DIR$/src/components/SideBar/LeftSideBar.js" />
+        <option value="$PROJECT_DIR$/src/config.js" />
+        <option value="$PROJECT_DIR$/src/routes/Course/Inform/components/index.less" />
+        <option value="$PROJECT_DIR$/src/routes/Home/components/index.less" />
+        <option value="$PROJECT_DIR$/src/routes/Course/Lessons/DetailIntro/components/index.less" />
+        <option value="$PROJECT_DIR$/src/setupProxy.js" />
+        <option value="$PROJECT_DIR$/src/routes/ChangePassword/components/index.js" />
         <option value="$PROJECT_DIR$/src/routes/HomeWork/Handle/components/index.js" />
         <option value="$PROJECT_DIR$/src/routes/HomeWork/Preview/components/index.js" />
         <option value="$PROJECT_DIR$/src/routes/Login/service/index.js" />
         <option value="$PROJECT_DIR$/src/routes/StuManagement/components/index.js" />
-        <option value="$PROJECT_DIR$/src/routes/index.js" />
+        <option value="$PROJECT_DIR$/src/models/global.js" />
         <option value="$PROJECT_DIR$/src/routes/Community/Topic/components/index.js" />
-        <option value="$PROJECT_DIR$/src/routes/Course/Inform/components/index.js" />
-        <option value="$PROJECT_DIR$/src/setupProxy.js" />
-        <option value="$PROJECT_DIR$/src/routes/Course/Lessons/Summary/components/index.less" />
-        <option value="$PROJECT_DIR$/src/components/SideBar/LeftSideBar.js" />
-        <option value="$PROJECT_DIR$/src/routes/ChangePassword/components/index.js" />
-        <option value="$PROJECT_DIR$/src/config.js" />
-        <option value="$PROJECT_DIR$/src/routes/Course/Inform/components/index.less" />
-        <option value="$PROJECT_DIR$/src/routes/Home/components/index.js" />
-        <option value="$PROJECT_DIR$/src/routes/Home/components/index.less" />
-        <option value="$PROJECT_DIR$/src/routes/Course/Lessons/Summary/components/index.js" />
-        <option value="$PROJECT_DIR$/src/routes/Course/Lessons/DetailIntro/components/index.js" />
-        <option value="$PROJECT_DIR$/src/routes/Course/Lessons/DetailIntro/components/index.less" />
-        <option value="$PROJECT_DIR$/src/routes/Course/Lessons/PerCourseComment/components/index.js" />
         <option value="$PROJECT_DIR$/src/routes/Community/TopicIntro/components/index.js" />
+        <option value="$PROJECT_DIR$/src/routes/Course/Assign/components/index.js" />
+        <option value="$PROJECT_DIR$/src/routes/Course/Inform/components/index.js" />
+        <option value="$PROJECT_DIR$/src/routes/Course/Lessons/DetailIntro/components/index.js" />
+        <option value="$PROJECT_DIR$/src/routes/Course/Lessons/PerCourseComment/components/index.js" />
+        <option value="$PROJECT_DIR$/src/routes/Course/Lessons/Summary/components/index.js" />
+        <option value="$PROJECT_DIR$/src/routes/Home/components/index.js" />
+        <option value="$PROJECT_DIR$/src/routes/HomeWork/Check/components/index.js" />
+        <option value="$PROJECT_DIR$/src/routes/HomeWork/Edit/components/index.js" />
       </list>
     </option>
   </component>
@@ -355,6 +421,12 @@
               <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
               <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -362,7 +434,48 @@
               <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="ChangePassword" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="ChangePassword" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
               <item name="Community" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="Community" type="462c0819:PsiDirectoryNode" />
+              <item name="Topic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="Community" type="462c0819:PsiDirectoryNode" />
+              <item name="Topic" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="Community" type="462c0819:PsiDirectoryNode" />
+              <item name="Topic" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
@@ -379,6 +492,232 @@
               <item name="routes" type="462c0819:PsiDirectoryNode" />
               <item name="Community" type="462c0819:PsiDirectoryNode" />
               <item name="TopicIntro" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="Course" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="Course" type="462c0819:PsiDirectoryNode" />
+              <item name="Assign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="Course" type="462c0819:PsiDirectoryNode" />
+              <item name="Assign" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="Course" type="462c0819:PsiDirectoryNode" />
+              <item name="Inform" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="Course" type="462c0819:PsiDirectoryNode" />
+              <item name="Inform" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="Course" type="462c0819:PsiDirectoryNode" />
+              <item name="Lessons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="Course" type="462c0819:PsiDirectoryNode" />
+              <item name="Lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="DetailIntro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="Course" type="462c0819:PsiDirectoryNode" />
+              <item name="Lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="DetailIntro" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="Course" type="462c0819:PsiDirectoryNode" />
+              <item name="Lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="PerCourseComment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="Course" type="462c0819:PsiDirectoryNode" />
+              <item name="Lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="PerCourseComment" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="Course" type="462c0819:PsiDirectoryNode" />
+              <item name="Lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="Summary" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="Course" type="462c0819:PsiDirectoryNode" />
+              <item name="Lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="Summary" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeWork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Check" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Check" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Edit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Edit" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Handle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Handle" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Preview" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Preview" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="StuManagement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="StuManagement" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -498,24 +837,32 @@
       <workItem from="1558436459958" duration="8627000" />
       <workItem from="1558770735079" duration="21815000" />
       <workItem from="1558866406697" duration="30662000" />
-      <workItem from="1559025472140" duration="6896000" />
+      <workItem from="1559025472140" duration="9535000" />
     </task>
+    <task id="LOCAL-00001" summary="[master] change proxy">
+      <created>1559033991535</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559033991535</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="505437000" />
+    <option name="totallyTimeSpent" value="508076000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989518" visible="true" weight="0.15315986" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989518" visible="true" weight="0.15315986" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.5010482" side_tool="true" weight="0.2" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32802126" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49888477" visible="true" weight="0.34528553" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49888477" visible="true" weight="0.26294822" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -523,7 +870,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32934928" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50111526" side_tool="true" weight="0.28286853" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49962825" weight="0.18326694" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49962825" weight="0.034528553" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -583,10 +930,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[master] change proxy" />
+    <option name="LAST_COMMIT_MESSAGE" value="[master] change proxy" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/routes/StuManagement/model/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Panel/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -617,31 +965,11 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/Course/Assign/service/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/routes/Course/Assign/components/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/Course/Inform/service/index.js" />
     <entry file="file://$PROJECT_DIR$/src/routes/Course/Lessons/DetailIntro/service/index.js" />
     <entry file="file://$PROJECT_DIR$/src/routes/Course/Lessons/Summary/service/index.js" />
     <entry file="file://$PROJECT_DIR$/src/routes/Home/service/index.js" />
     <entry file="file://$PROJECT_DIR$/src/routes/HomeWork/Check/service/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/routes/HomeWork/Check/components/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="111" column="87" lean-forward="true" selection-start-line="111" selection-start-column="87" selection-end-line="111" selection-end-column="87" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/HomeWork/Edit/service/index.js" />
     <entry file="file://$PROJECT_DIR$/src/routes/HomeWork/Check/components/columns.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -651,61 +979,14 @@
     <entry file="file://$PROJECT_DIR$/src/routes/HomeWork/Edit/components/columns.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/HomeWork/Edit/components/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-528">
-          <caret line="101" column="61" selection-start-line="101" selection-start-column="61" selection-end-line="101" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/HomeWork/Handle/service/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/routes/HomeWork/Handle/components/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-432">
-          <caret line="96" column="50" selection-start-line="96" selection-start-column="50" selection-end-line="96" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/HomeWork/Preview/service/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/routes/Login/service/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/HomeWork/Preview/components/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-552">
-          <caret line="124" column="51" selection-start-line="124" selection-start-column="51" selection-end-line="124" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/Login/model/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="32" column="10" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="10" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/StuManagement/components/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
-          <caret line="209" column="41" selection-start-line="209" selection-start-column="41" selection-end-line="209" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -740,32 +1021,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/global.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/setupProxy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -787,16 +1048,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/ChangePassword/components/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="56" column="17" lean-forward="true" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
@@ -807,30 +1058,10 @@
     <entry file="file://$PROJECT_DIR$/src/routes/Community/TopicIntro/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/Community/Topic/components/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/Home/components/index.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/Home/components/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="71" column="80" selection-start-line="71" selection-start-column="80" selection-end-line="71" selection-end-column="80" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -841,30 +1072,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/Course/Lessons/Summary/components/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/Course/Inform/components/index.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/Course/Inform/components/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="122" column="55" selection-start-line="122" selection-start-column="47" selection-end-line="122" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -875,10 +1086,107 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/Login/components/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/setupProxy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/HomeWork/Handle/components/handle.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/Login/service/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/StuManagement/components/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4963">
+          <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/global.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="61" column="46" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/ChangePassword/components/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1464">
+          <caret line="115" column="56" selection-start-line="115" selection-start-column="56" selection-end-line="115" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/Community/Topic/components/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-480">
+          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/Community/TopicIntro/components/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1056">
+          <caret line="71" column="43" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/Course/Assign/components/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1176">
+          <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/Course/Inform/components/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-101">
+          <caret line="89" column="50" selection-start-line="89" selection-start-column="50" selection-end-line="89" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/Course/Lessons/DetailIntro/components/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="104" column="84" selection-start-line="104" selection-start-column="84" selection-end-line="104" selection-end-column="84" />
+        <state relative-caret-position="-552">
+          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -887,25 +1195,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/Course/Lessons/PerCourseComment/components/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="143" column="152" selection-start-line="143" selection-start-column="22" selection-end-line="143" selection-end-column="152" />
+        <state relative-caret-position="1747">
+          <caret line="79" column="42" selection-start-line="79" selection-start-column="42" selection-end-line="79" selection-end-column="42" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/Login/components/index.js">
+    <entry file="file://$PROJECT_DIR$/src/routes/Course/Lessons/Summary/components/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" selection-end-column="54" />
+        <state relative-caret-position="-1109">
+          <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/Community/TopicIntro/components/index.js">
+    <entry file="file://$PROJECT_DIR$/src/routes/Home/components/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="984">
+          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/HomeWork/Check/components/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1896">
+          <caret line="44" column="51" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/HomeWork/Edit/components/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-557">
+          <caret line="101" column="51" selection-start-line="101" selection-start-column="51" selection-end-line="101" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/HomeWork/Handle/components/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+          <caret line="96" column="50" selection-start-line="96" selection-start-column="50" selection-end-line="96" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/HomeWork/Preview/components/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1051">
+          <caret line="44" column="51" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

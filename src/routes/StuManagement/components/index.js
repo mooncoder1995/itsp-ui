@@ -44,7 +44,7 @@ export default class StuManagement extends BaseComponent {
       payload: {
         valueField: 'courseInfo',
         method: 'GET',
-        url: '/teacher/allCourseSelect'
+        url: 'http://59.67.107.169:8010/api/teacher/allCourseSelect'
       }
     });
   };
@@ -72,7 +72,7 @@ export default class StuManagement extends BaseComponent {
       payload: {
         valueField: 'stuList',
         method: 'GET',
-        url: '/teacher/allStudent/' + value
+        url: 'http://59.67.107.169:8010/api/teacher/allStudent/' + value
       }
     })
   }
@@ -114,7 +114,7 @@ export default class StuManagement extends BaseComponent {
         },
         payload: {
           method: 'POST',
-          url: '/mapping/mapping',
+          url: 'http://59.67.107.169:8010/api/mapping/mapping',
           data: {
               "studentId": values.userId,
               "courseId": values.courseId
@@ -180,7 +180,7 @@ export default class StuManagement extends BaseComponent {
         },
         payload: {
           method: 'PUT',
-          url: '/user/user',
+          url: 'http://59.67.107.169:8010/api/user/user',
           data: values
         },
       });
@@ -207,7 +207,7 @@ export default class StuManagement extends BaseComponent {
       },
       payload: {
         method: 'DELETE',
-        url: `/teacher/removeStudent?studentId=${userId}&courseId=${this.state.courseId}`
+        url: `http://59.67.107.169:8010/api/teacher/removeStudent?studentId=${userId}&courseId=${this.state.courseId}`
       },
     });
   };

@@ -23,7 +23,7 @@ export default class Topic extends BaseComponent {
       payload: {
         valueField: 'topic',
         method: 'GET',
-        url: '/topic/queryAllTopic'
+        url: 'http://59.67.107.169:8010/api/topic/queryAllTopic'
       }
 
     })

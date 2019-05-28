@@ -33,7 +33,7 @@ class changePassword extends BaseComponent {
           },
           payload: {
             method: 'PUT',
-            url: 'api/user/user',
+            url: 'http://59.67.107.169:8010/api/user/user',
             data: {
               "userPassword": values.password,
               "userId": $$.getStore("user").userId
@@ -102,7 +102,7 @@ class changePassword extends BaseComponent {
               <Form.Item label="请输入新密码:">
                 {getFieldDecorator('password', {
                   rules: [{
-                    required: true, message: 'Please input your password!',
+                    required: true, message: '请输入您的密码!',
                   }, {
                     validator: this.validateToNextPassword,
                   }],
@@ -113,7 +113,7 @@ class changePassword extends BaseComponent {
               <Form.Item label="请确认输入修改的密码:">
                 {getFieldDecorator('confirm', {
                   rules: [{
-                    required: true, message: 'Please confirm your password!',
+                    required: true, message: '请确认输入修改的密码!',
                   }, {
                     validator: this.compareToFirstPassword,
                   }],

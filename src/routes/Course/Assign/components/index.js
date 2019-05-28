@@ -23,9 +23,9 @@ export default class Assign extends BaseComponent {
         const {dispatch} = this.props;
         var sendURL = ''
         if ($$.getStore('user').userRoleName === "学生") {
-            sendURL = "/student/todayCourse";
+            sendURL = "http://59.67.107.169:8010/api/student/todayCourse";
         } else {
-            sendURL = "/teacher/todayCourse"
+            sendURL = "http://59.67.107.169:8010/api/teacher/todayCourse"
         }
         dispatch({
             type: 'assign/@request',

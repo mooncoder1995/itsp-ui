@@ -85,7 +85,7 @@ export default class Home extends BaseComponent {
                     <List.Item>
                       <List.Item.Meta
                         // avatar={<Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />}
-                        title={<a href="https://ant.design">{item.notifyTime}</a>}
+                        title={<a href="javascript:;">{item.notifyTime}</a>}
                         description={item.notifyContent}
                       />
                     </List.Item>

@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[29],{1313:function(s,t,e){"use strict";e.r(t);var a=e(220);t.default=Object(a.a)({namespace:"stuManagement",state:{courseInfo:[],stuList:{list:[]}}})}}]);
+//# sourceMappingURL=29.fc07c71c.chunk.js.map

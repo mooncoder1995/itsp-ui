@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[23],{1308:function(a,e,t){"use strict";t.r(e);var s=t(220);e.default=Object(s.a)({namespace:"datatable",state:{courseInfo:[],courseTimeInfo:[],dataList:{list:[]}}})}}]);
+//# sourceMappingURL=23.58300301.chunk.js.map

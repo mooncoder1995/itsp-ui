@@ -45,7 +45,7 @@ export default class Handle extends BaseComponent {
             payload: {
                 valueField: 'courseInfo',
                 method: 'GET',
-                url: '/student/allCourseSelect/'
+                url: 'http://59.67.107.169:8010/api/student/allCourseSelect/'
             }
         });
         console.log(isMobile);
@@ -64,7 +64,7 @@ export default class Handle extends BaseComponent {
             payload: {
                 valueField: 'courseTimeInfo',
                 method: 'GET',
-                url: '/student/course/' + value
+                url: 'http://59.67.107.169:8010/api/student/course/' + value
             }
 
         })
@@ -94,7 +94,7 @@ export default class Handle extends BaseComponent {
         //上传文件的参数设置
         const props = {
             name: 'uploadFile',
-            action: '/api/student/handIn/' + this.state.perCourseId,
+            action: 'http://59.67.107.169:8010/api/student/handIn/' + this.state.perCourseId,
             headers: {
                 authorization: 'authorization-text',
             },

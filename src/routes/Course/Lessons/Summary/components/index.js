@@ -24,7 +24,6 @@ export default class Lessons extends BaseComponent {
 
   componentDidMount() {
     $$.removeStore('lessonItem')
-    this.judgeIsMobile()
     this.getAllCourseNames()
     const self = this;
     document.addEventListener('lazybeforeunveil', ({target}) => {

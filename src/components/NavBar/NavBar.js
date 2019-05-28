@@ -86,7 +86,7 @@ class NavBar extends PureComponent {
       <header className={classnames}>
         <div className="navbar-branding">
           <Link className="navbar-brand" to="/">
-            <img src={logoImg} alt="logo" />
+            <img ={logoImg} alt="logo" />
             <b>教学</b>
             服务平台
           </Link>
@@ -114,7 +114,7 @@ class NavBar extends PureComponent {
             >
               <a className="dropdown-toggle">
                 <Badge dot>
-                  {/*<Avatar src={require('assets/images/avatar.jpg')}>*/}
+                  {/*<Avatar ={require('assets/images/avatar.jpg')}>*/}
                     {user.userName}
                   {/*</Avatar>*/}
                 </Badge>

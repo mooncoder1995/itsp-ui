@@ -1,6 +1,6 @@
 /**
  * 来源
- * https://github.com/ant-design/ant-design-pro/blob/master/src/components/SiderMenu/SiderMenu.js
+ * https://github.com/ant-design/ant-design-pro/blob/master//components/SiderMenu/SiderMenu.js
  */
 import React, { PureComponent } from 'react';
 import cx from 'classnames';
@@ -19,7 +19,7 @@ const SubMenu = Menu.SubMenu;
 //   icon: <Icon type="setting" />,
 const getIcon = icon => {
   if (typeof icon === 'string' && icon.indexOf('http') === 0) {
-    return <img src={icon} alt="icon" className={`sider-menu-item-img`} />;
+    return <img ={icon} alt="icon" className={`sider-menu-item-img`} />;
   }
   if (typeof icon === 'string') {
     return <Icon type={icon} antd />;
@@ -219,7 +219,7 @@ class LeftSideBar extends PureComponent {
                 {/*&& <Avatar shape="square" size={64} style={{ backgroundColor: '#535a61'}}>*/}
                   {/*{user.userName.substring(0,1)}*/}
                   {/*</Avatar>}*/}
-                <Avatar size={66} src={user.userImg}/>
+                <Avatar size={66} ={user.userImg}/>
               </Icon>
               <div className="user-details">
                 <span>{user.userName}</span>

@@ -7,16 +7,16 @@ import './style/index.less';
 
 class LazyLoad extends Component {
   static propTypes = {
-    src: PropTypes.string,
+    : PropTypes.string,
     dataSizes: PropTypes.string,
-    dataSrc: PropTypes.string,
-    dataSrcSet: PropTypes.oneOfType([PropTypes.string, PropTypes.array]),
+    data: PropTypes.string,
+    dataSet: PropTypes.oneOfType([PropTypes.string, PropTypes.array]),
     className: PropTypes.string,
     iframe: PropTypes.bool
   };
 
   static defaultProps = {
-    src:
+    :
       'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7',
     dataSizes: 'auto',
     iframe: false,
@@ -26,20 +26,20 @@ class LazyLoad extends Component {
   componentWillUpdate(nextProps) {
     let propsChanged = false;
     for (let propName of [
-      'src',
+      '',
       'dataSizes',
-      'dataSrc',
-      'dataSrcSet',
+      'data',
+      'dataSet',
       'className',
       'iframe'
     ]) {
       let prop =
-        propName === 'dataSrcSet'
-          ? this.handleSrcSet(this.props[propName])
+        propName === 'dataSet'
+          ? this.handleSet(this.props[propName])
           : this.props[propName];
       let nextProp =
-        propName === 'dataSrcSet'
-          ? this.handleSrcSet(nextProps[propName])
+        propName === 'dataSet'
+          ? this.handleSet(nextProps[propName])
           : nextProps[propName];
       if (prop !== nextProp) {
         propsChanged = true;
@@ -53,11 +53,11 @@ class LazyLoad extends Component {
     }
   }
 
-  handleSrcSet(dataSrcSet) {
-    if ($$.isArray(dataSrcSet)) {
-      return dataSrcSet.join(',');
-    } else if (typeof dataSrcSet === 'string') {
-      return dataSrcSet;
+  handleSet(dataSet) {
+    if ($$.isArray(dataSet)) {
+      return dataSet.join(',');
+    } else if (typeof dataSet === 'string') {
+      return dataSet;
     } else {
       return null;
     }
@@ -76,22 +76,22 @@ class LazyLoad extends Component {
   };
 
   componentWillUnmount() {
-    this.node.src = '';
+    this.node. = '';
   }
 
   onError(e) {
     e.target.classList.add('lazyerror');
-    e.target.src =
+    e.target. =
       'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';
   }
 
   render() {
     const {
       prefixCls,
-      src,
+      ,
       dataSizes,
-      dataSrc,
-      dataSrcSet,
+      data,
+      dataSet,
       className,
       iframe,
       title,
@@ -101,11 +101,11 @@ class LazyLoad extends Component {
 
     const classNames = cx(prefixCls, 'lazyload', className);
 
-    const lazyProps = { ...otherProps, src };
-    if (dataSrc) lazyProps['data-src'] = dataSrc;
+    const lazyProps = { ...otherProps,  };
+    if (data) lazyProps['data-'] = data;
     if (dataSizes) lazyProps['data-sizes'] = dataSizes;
-    if (dataSrcSet) {
-      lazyProps['data-srcset'] = this.handleSrcSet(dataSrcSet);
+    if (dataSet) {
+      lazyProps['data-set'] = this.handleSet(dataSet);
     }
 
     if (iframe) {

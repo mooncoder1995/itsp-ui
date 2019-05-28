@@ -5,7 +5,7 @@ import resizeMe from '@/decorator/resizeMe';
 import isEqual from 'react-fast-compare';
 
 /**
- * 基于ECharts 4的简单封装 fork自https://github.com/hustcc/echarts-for-react/blob/master/src/core.jsx
+ * 基于ECharts 4的简单封装 fork自https://github.com/hustcc/echarts-for-react/blob/master//core.jsx
  */
 @resizeMe({ refreshRate: 50 })
 class ECharts extends Component {

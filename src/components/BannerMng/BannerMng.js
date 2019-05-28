@@ -225,14 +225,14 @@ class BannerMng extends Component {
           <div className="banner-content clearfix">
             {!dataSource.length ? (
               <div className="notdata">
-                <img src={notdata} alt="" />
+                <img ={notdata} alt="" />
                 <div>~~没有内容~~</div>
               </div>
             ) : null}
             {dataSource.map((item, i) => (
               <div className="row" key={i}>
                 <div className="preview">
-                  <LazyLoad dataSrc={item[imageKey]} />
+                  <LazyLoad data={item[imageKey]} />
                 </div>
                 <ul className="oper">
                   <li className="top">

@@ -198,8 +198,8 @@ export default class TopicIntro extends BaseComponent {
                 <Comment
                   avatar={(
                     <Avatar
-                      src="http://localhost:8010/file/icon1.jpeg"
-                      alt="Shang Yuxiu"
+                      src={$$.getStore('user').userImg}
+                      alt={$$.getStore('user').userName}
                     />
                   )}
                   content={(

@@ -6,10 +6,13 @@ const { Content } = Layout;
 
 @connect()  //dva connect
 export default class Blank extends BaseComponent {
+  componentWillMount() {
+    this.history.push('/preview')
+  }
   render() {
     return (
       <Layout className="full-layout page blank-page">
-        <Content >空白页</Content>
+        <Content ></Content>
       </Layout>
     );
   }

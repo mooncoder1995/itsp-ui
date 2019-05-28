@@ -101,10 +101,10 @@ export default class Inform extends BaseComponent {
         const {courseInfo, courseTimeInfo} = this.props.inform;
         const { isMobile, notification} = this.state
         return (
-            <Layout className="full-layout page inform-page">
+            <Layout className="full-layout page inform-page" style={{overflow: 'hidden'}}>
                 <Content>
-                    <Row gutter={26}>
-                        <Panel title="发送通知" width={500}>
+                    <Row gutter={26} className={isMobile ? "ant-row" : "ant-row___desktop"}>
+                        <Panel title="发送通知" width={isMobile? 300 :500}>
                             <div align="center">
                                 <Select size="large" placeholder="请选择课程名称"
                                         className={isMobile ? "ant-select" : "ant-select___desktop"}

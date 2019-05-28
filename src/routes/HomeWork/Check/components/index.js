@@ -109,7 +109,7 @@ export default class Check extends BaseComponent {
             },
             payload: {
                 method: 'DELETE',
-                url: `/file/file?perCourseId${perCourseId}&userId=${userId}`
+                url: `/file/file?perCourseId=${perCourseId}&userId=${userId}`
             },
         });
     };

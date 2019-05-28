@@ -40,7 +40,7 @@ export default {
         yield put(routerRedux.replace('/'));
 
         //建立与消息推送服务器的连接
-        const WS_HOST = 'ws://192.168.1.3:8010'
+        const WS_HOST = 'ws://localhost:8010'
         let msgSocket = new WebSocket(`${WS_HOST}/ws/${$$.getStore('user').userId}`)
         msgSocket.onopen = function (e) {
             console.log("connected")

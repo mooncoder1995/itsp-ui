@@ -33,6 +33,10 @@ export default class Preview extends BaseComponent {
         });
     };
 
+    componentDidMount() {
+        this.fetchAllCourse()
+    }
+
     //获取老师所教所有课程
     fetchAllCourse = () => {
         const {dispatch} = this.props;
@@ -131,6 +135,8 @@ export default class Preview extends BaseComponent {
                 }
             },
         });
+      // window.location.reload([true])
+      this.history.push('/blank')
     };
 
     render() {
@@ -167,7 +173,7 @@ export default class Preview extends BaseComponent {
                             <Panel title="选择作业相关信息">
                                 <Select
                                     placeholder="请选择课程名称"
-                                    onMouseEnter={this.fetchAllCourse}
+                                    // onMouseEnter={this.fetchAllCourse}
                                     onChange={this.fetchCourseInfo}>
                                     {courseInfo.map(d => <Option key={d.courseId}>{d.courseName}</Option>)}
                                 </Select>

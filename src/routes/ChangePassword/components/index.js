@@ -33,7 +33,7 @@ class changePassword extends BaseComponent {
           },
           payload: {
             method: 'PUT',
-            url: 'api/user/user',
+            url: '/user/user',
             data: {
               "userPassword": values.password,
               "userId": $$.getStore("user").userId
@@ -80,19 +80,6 @@ class changePassword extends BaseComponent {
         sm: {span: 16},
       },
     };
-    // const tailFormItemLayout = {
-    //   align: center
-    //   // wrapperCol: {
-    //   //   xs: {
-    //   //     span: 0,
-    //   //     offset: 10,
-    //   //   },
-    //   //   sm: {
-    //   //     span: 16,
-    //   //     offset: 8,
-    //   //   },
-    //   // },
-    // };
 
     return (
       <Layout className="full-layout page changePassword-page">

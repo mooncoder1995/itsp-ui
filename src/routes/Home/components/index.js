@@ -68,7 +68,7 @@ export default class Home extends BaseComponent {
     const {notifyData, commentData, isMobile} = this.state
     return (
       <Layout className="full-layout page home-page">
-        <Content>
+        <Content className={!isMobile && 'my-content'}>
           <Carousel autoplay  className={isMobile? 'ant-carousel slick-slide': ''}>
             <div className='back-one'><div className='image-one'><h3>1</h3></div></div>
             <div className='back-two'><div className='image-two'><h3>2</h3></div></div>

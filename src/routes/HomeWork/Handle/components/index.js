@@ -64,7 +64,7 @@ export default class Handle extends BaseComponent {
             payload: {
                 valueField: 'courseTimeInfo',
                 method: 'GET',
-                url: '/api/student/course/' + value
+                url: '/student/course/' + value
             }
 
         })
@@ -94,7 +94,7 @@ export default class Handle extends BaseComponent {
         //上传文件的参数设置
         const props = {
             name: 'uploadFile',
-            action: '/student/handIn/' + this.state.perCourseId,
+            action: '/api/student/handIn/' + this.state.perCourseId,
             headers: {
                 authorization: 'authorization-text',
             },

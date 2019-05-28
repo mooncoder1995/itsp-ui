@@ -102,7 +102,7 @@ class changePassword extends BaseComponent {
               <Form.Item label="请输入新密码:">
                 {getFieldDecorator('password', {
                   rules: [{
-                    required: true, message: 'Please input your password!',
+                    required: true, message: '请输入你的密码!',
                   }, {
                     validator: this.validateToNextPassword,
                   }],
@@ -113,7 +113,7 @@ class changePassword extends BaseComponent {
               <Form.Item label="请确认输入修改的密码:">
                 {getFieldDecorator('confirm', {
                   rules: [{
-                    required: true, message: 'Please confirm your password!',
+                    required: true, message: '请确认你要修改的密码!',
                   }, {
                     validator: this.compareToFirstPassword,
                   }],

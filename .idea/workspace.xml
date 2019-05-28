@@ -2,49 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a892b6b7-7207-436f-9d70-d322588e5439" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__mocks__/charts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__mocks__/charts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__mocks__/crud.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__mocks__/crud.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__mocks__/datatable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__mocks__/datatable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__mocks__/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__mocks__/demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__mocks__/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__mocks__/form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__mocks__/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__mocks__/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__mocks__/tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__mocks__/tree.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__mocks__/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__mocks__/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SideBar/LeftSideBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SideBar/LeftSideBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/global.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/ChangePassword/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/ChangePassword/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Community/Topic/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Community/Topic/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Community/TopicIntro/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Community/TopicIntro/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Course/Assign/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Course/Assign/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Course/Inform/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Course/Inform/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Course/Inform/components/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Course/Inform/components/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Course/Lessons/DetailIntro/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Course/Lessons/DetailIntro/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Course/Lessons/DetailIntro/components/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Course/Lessons/DetailIntro/components/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Course/Lessons/PerCourseComment/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Course/Lessons/PerCourseComment/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Course/Lessons/Summary/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Course/Lessons/Summary/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Course/Lessons/Summary/components/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Course/Lessons/Summary/components/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Home/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Home/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Home/components/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Home/components/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/HomeWork/Check/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/HomeWork/Check/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/HomeWork/Edit/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/HomeWork/Edit/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/HomeWork/Handle/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/HomeWork/Handle/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/HomeWork/Preview/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/HomeWork/Preview/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Login/service/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Login/service/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/StuManagement/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/StuManagement/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupProxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupProxy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/routes/Blank/components/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/routes/Blank/components/index.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/routes/Blank/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/routes/Blank/model/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/routes/Blank/service/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/routes/CRUD/components/columns.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/routes/CRUD/components/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/routes/CRUD/components/index.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/routes/CRUD/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/routes/CRUD/model/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/routes/CRUD/service/index.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -146,25 +104,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="502" />
+          <entry key="js" value="525" />
           <entry key="less" value="164" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="502" />
+          <entry key="JavaScript" value="525" />
           <entry key="Less" value="164" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="23" />
+          <entry key="js" value="24" />
           <entry key="less" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="23" />
+          <entry key="JavaScript" value="24" />
           <entry key="Less" value="9" />
         </counts>
       </usages-collector>
@@ -175,20 +133,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/routes/Community/TopicIntro/components/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/Course/Lessons/PerCourseComment/components/index.js">
+        <entry file="file://$PROJECT_DIR$/src/routes/Course/Inform/components/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="143" column="152" selection-start-line="143" selection-start-column="22" selection-end-line="143" selection-end-column="152" />
+            <state relative-caret-position="-101">
+              <caret line="89" column="21" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -197,10 +146,109 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/Login/components/index.js">
+        <entry file="file://$PROJECT_DIR$/src/routes/Course/Lessons/DetailIntro/components/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" selection-end-column="54" />
+            <state relative-caret-position="-552">
+              <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/Course/Lessons/PerCourseComment/components/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1747">
+              <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/Course/Lessons/Summary/components/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1109">
+              <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/Home/components/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="960">
+              <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/HomeWork/Check/components/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1896">
+              <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/HomeWork/Edit/components/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-557">
+              <caret line="101" column="22" selection-start-line="101" selection-start-column="22" selection-end-line="101" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/HomeWork/Handle/components/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="96" column="21" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/HomeWork/Preview/components/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/routes/ChangePassword/components/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="125" column="26" lean-forward="true" selection-start-line="125" selection-start-column="26" selection-end-line="125" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -298,7 +346,6 @@
         <option value="$PROJECT_DIR$/src/setupProxy.js" />
         <option value="$PROJECT_DIR$/src/routes/Course/Lessons/Summary/components/index.less" />
         <option value="$PROJECT_DIR$/src/components/SideBar/LeftSideBar.js" />
-        <option value="$PROJECT_DIR$/src/routes/ChangePassword/components/index.js" />
         <option value="$PROJECT_DIR$/src/config.js" />
         <option value="$PROJECT_DIR$/src/routes/Course/Inform/components/index.less" />
         <option value="$PROJECT_DIR$/src/routes/Home/components/index.js" />
@@ -308,6 +355,7 @@
         <option value="$PROJECT_DIR$/src/routes/Course/Lessons/DetailIntro/components/index.less" />
         <option value="$PROJECT_DIR$/src/routes/Course/Lessons/PerCourseComment/components/index.js" />
         <option value="$PROJECT_DIR$/src/routes/Community/TopicIntro/components/index.js" />
+        <option value="$PROJECT_DIR$/src/routes/ChangePassword/components/index.js" />
       </list>
     </option>
   </component>
@@ -362,23 +410,14 @@
               <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="Community" type="462c0819:PsiDirectoryNode" />
+              <item name="ChangePassword" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
               <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="Community" type="462c0819:PsiDirectoryNode" />
-              <item name="TopicIntro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itsp_tmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itsp_tmp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="Community" type="462c0819:PsiDirectoryNode" />
-              <item name="TopicIntro" type="462c0819:PsiDirectoryNode" />
+              <item name="ChangePassword" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -503,7 +542,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="505437000" />
+    <option name="totallyTimeSpent" value="505608000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
@@ -619,8 +658,8 @@
     <entry file="file://$PROJECT_DIR$/src/routes/Course/Assign/service/index.js" />
     <entry file="file://$PROJECT_DIR$/src/routes/Course/Assign/components/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+        <state relative-caret-position="-1176">
+          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -634,8 +673,8 @@
     <entry file="file://$PROJECT_DIR$/src/routes/HomeWork/Check/service/index.js" />
     <entry file="file://$PROJECT_DIR$/src/routes/HomeWork/Check/components/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="111" column="87" lean-forward="true" selection-start-line="111" selection-start-column="87" selection-end-line="111" selection-end-column="87" />
+        <state relative-caret-position="-1896">
+          <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -653,8 +692,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/HomeWork/Edit/components/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-528">
-          <caret line="101" column="61" selection-start-line="101" selection-start-column="61" selection-end-line="101" selection-end-column="61" />
+        <state relative-caret-position="-557">
+          <caret line="101" column="22" selection-start-line="101" selection-start-column="22" selection-end-line="101" selection-end-column="22" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -664,8 +703,8 @@
     <entry file="file://$PROJECT_DIR$/src/routes/HomeWork/Handle/service/index.js" />
     <entry file="file://$PROJECT_DIR$/src/routes/HomeWork/Handle/components/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-432">
-          <caret line="96" column="50" selection-start-line="96" selection-start-column="50" selection-end-line="96" selection-end-column="50" />
+        <state relative-caret-position="96">
+          <caret line="96" column="21" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -682,8 +721,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/HomeWork/Preview/components/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-552">
-          <caret line="124" column="51" selection-start-line="124" selection-start-column="51" selection-end-line="124" selection-end-column="51" />
+        <state relative-caret-position="475">
+          <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -694,9 +733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="32" column="10" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -787,16 +823,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/ChangePassword/components/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="56" column="17" lean-forward="true" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
@@ -826,8 +852,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/Home/components/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="71" column="80" selection-start-line="71" selection-start-column="80" selection-end-line="71" selection-end-column="80" />
+        <state relative-caret-position="960">
+          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -843,8 +869,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/Course/Lessons/Summary/components/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        <state relative-caret-position="-1109">
+          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -860,8 +886,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/Course/Inform/components/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="122" column="55" selection-start-line="122" selection-start-column="47" selection-end-line="122" selection-end-column="55" />
+        <state relative-caret-position="-101">
+          <caret line="89" column="21" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -877,8 +903,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/Course/Lessons/DetailIntro/components/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="104" column="84" selection-start-line="104" selection-start-column="84" selection-end-line="104" selection-end-column="84" />
+        <state relative-caret-position="-552">
+          <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -887,8 +913,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/Course/Lessons/PerCourseComment/components/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="143" column="152" selection-start-line="143" selection-start-column="22" selection-end-line="143" selection-end-column="152" />
+        <state relative-caret-position="1747">
+          <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -906,6 +932,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/ChangePassword/components/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="125" column="26" lean-forward="true" selection-start-line="125" selection-start-column="26" selection-end-line="125" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

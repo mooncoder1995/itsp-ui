@@ -2,6 +2,7 @@ import React from 'react';
 import {connect} from 'dva';
 import {Avatar, Form, Comment, Icon, Layout, List, Menu, Button, Input, message} from 'antd';
 import BaseComponent from 'components/BaseComponent'
+import {enquireIsMobile} from '@/utils/enquireScreen';
 import $$ from 'cmn-utils'
 
 const {Header, Content} = Layout;
@@ -39,11 +40,25 @@ export default class TopicIntro extends BaseComponent {
     visible: false,
     comments: [],
     submitting: false,
-    value: ''
+    value: '',
+    isMobile: false
   }
 
   componentDidMount = () => {
     this.getOneComment()
+    this.judgeIsMobile()
+  }
+
+  //判断是否是手机
+  judgeIsMobile = () => {
+    this.unregisterEnquire = enquireIsMobile(ismobile => {
+      const {isMobile} = this.state;
+      if (isMobile !== ismobile) {
+        this.setState({
+          isMobile: ismobile
+        });
+      }
+    });
   }
 
   //获取指定的评论信息
@@ -54,7 +69,7 @@ export default class TopicIntro extends BaseComponent {
       payload: {
         valueField: 'topicDetail',
         method: 'GET',
-        url: `http://192.168.0.8:8010/api/topic/queryTopic/${$$.getStore('topicId')}`
+        url: `/topic/queryTopic/${$$.getStore('topicId')}`
       }
     })
   }
@@ -72,7 +87,7 @@ export default class TopicIntro extends BaseComponent {
       },
       payload: {
         method: 'POST',
-        url: `http://192.168.0.8:8010/api/reply/publicReply`,
+        url: `/reply/publicReply`,
         data: {
           replyTopicId: $$.getStore('topicId'),
           replyUserId: $$.getStore('user').userId,
@@ -129,7 +144,7 @@ export default class TopicIntro extends BaseComponent {
   }
 
   render() {
-    const {visible, comments, submitting, value} = this.state
+    const {visible, comments, submitting, value, isMobile} = this.state
     const {topicDetail} = this.props.topicIntro
     return (
       <Layout className="full-layout topic-intro-page">
@@ -142,7 +157,7 @@ export default class TopicIntro extends BaseComponent {
             <Menu.Item>
               <div onClick={this.goBack}>
                 <Icon type="arrow-left"
-                      style={{color: 'white', fontSize: '25px', marginLeft: '50px', marginTop: '10px'}}/>
+                      style={isMobile ? {color: 'white', fontSize: '25px', } :{color: 'white', fontSize: '25px', marginLeft: '50px', marginTop: '10px'}}/>
                 返回评论主页
               </div>
             </Menu.Item>

@@ -42,7 +42,7 @@ export default class Preview extends BaseComponent {
             payload: {
                 valueField: 'courseInfo',
                 method: 'GET',
-                url: 'http://192.168.0.8:8010/api/teacher/allCourseSelect'
+                url: '/teacher/allCourseSelect'
             }
         });
     };
@@ -57,7 +57,7 @@ export default class Preview extends BaseComponent {
             payload: {
                 valueField: 'courseTimeInfo',
                 method: 'GET',
-                url: 'http://192.168.0.8:8010/api/teacher/course/' + value
+                url: '/teacher/course/' + value
             }
         });
     };
@@ -75,7 +75,7 @@ export default class Preview extends BaseComponent {
             payload: {
                 valueField: 'stuInfo',
                 method: 'GET',
-                url: 'http://192.168.0.8:8010/api/teacher/checkIn/' + value
+                url: '/teacher/checkIn/' + value
             }
         });
     };
@@ -122,7 +122,7 @@ export default class Preview extends BaseComponent {
             },
             payload: {
                 method: 'PUT',
-                url: 'http://192.168.0.8:8010/api/teacher/correct',
+                url: '/teacher/correct',
                 data: {
                     "perCourseId": stuWork.perCourseId,
                     "userId": stuWork.userId,

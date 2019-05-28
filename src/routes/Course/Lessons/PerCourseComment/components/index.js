@@ -4,6 +4,7 @@ import {Layout, Icon, Menu, message, Comment, Avatar, List, Divider, Form, Input
 import BaseComponent from 'components/BaseComponent';
 import $$ from 'cmn-utils'
 import './index.less'
+import {enquireIsMobile} from '@/utils/enquireScreen';
 
 const {Header, Content, Footer, Sider} = Layout;
 const TextArea = Input.TextArea
@@ -35,16 +36,30 @@ export default class PerComment extends BaseComponent {
     commentInfo: [],
     visible: false,
     submitting: false,
-    value: ''
+    value: '',
+    isMobile: false
   }
 
   componentDidMount = () => {
+    this.judgeIsMobile()
     this.getComment()
+  }
+
+  //判断是否是手机
+  judgeIsMobile = () => {
+    this.unregisterEnquire = enquireIsMobile(ismobile => {
+      const {isMobile} = this.state;
+      if (isMobile !== ismobile) {
+        this.setState({
+          isMobile: ismobile
+        });
+      }
+    });
   }
 
   //获取指定课程评论
   getComment() {
-    $$.get(`http://192.168.0.8:8010/api/topic/queryByPerCourseId/${$$.getStore('perCourseId')}`)
+    $$.get(`/topic/queryByPerCourseId/${$$.getStore('perCourseId')}`)
       .then(resp =>
         this.setState({
           commentInfo: resp.data
@@ -62,7 +77,7 @@ export default class PerComment extends BaseComponent {
       topicPercourseId: $$.getStore('perCourseId'),
       topicContent: this.state.value
     }
-    $$.post(`http://192.168.0.8:8010/api/topic/publicTopic`, data).then(
+    $$.post(`/topic/publicTopic`, data).then(
       resp => {
         if (resp.icon === 'success') {
           message.success(resp.message)
@@ -113,7 +128,7 @@ export default class PerComment extends BaseComponent {
   }
 
   render() {
-    const {commentInfo, submitting, value, visible} = this.state
+    const {commentInfo, submitting, value, visible, isMobile} = this.state
 
     return (
       <Layout className="full-layout per-comment-page">
@@ -126,7 +141,7 @@ export default class PerComment extends BaseComponent {
             <Menu.Item>
               <div onClick={this.goBack}>
                 <Icon type="arrow-left"
-                      style={{color: 'white', fontSize: '25px', marginLeft: '50px', marginTop: '10px'}}/>
+                      style={isMobile ? {color: 'white', fontSize: '25px', } :{color: 'white', fontSize: '25px', marginLeft: '50px', marginTop: '10px'}}/>
                 返回课程主页
               </div>
             </Menu.Item>

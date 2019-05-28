@@ -5,6 +5,7 @@ import BaseComponent from 'components/BaseComponent';
 import './index.less';
 import Panel from "../../../components/Panel/Panel";
 import $$ from "cmn-utils/lib";
+import {enquireIsMobile} from '@/utils/enquireScreen';
 
 const {Content} = Layout;
 
@@ -12,17 +13,32 @@ const {Content} = Layout;
 export default class Home extends BaseComponent {
   state = {
     notifyData: [],
-    commentData: []
+    commentData: [],
+    isMobile: false
   }
 
   componentDidMount() {
     this.getNotify()
     this.getComment()
+    this.judgeIsMobile()
+  }
+
+  //判断是否是手机
+  judgeIsMobile = () => {
+    this.unregisterEnquire = enquireIsMobile(ismobile => {
+      const {isMobile} = this.state;
+      if (isMobile !== ismobile) {
+        this.setState({
+          isMobile: ismobile
+        });
+      }
+    });
   }
 
   //获取最近课程通知
   getNotify = () => {
-    $$.get('http://192.168.0.8:8010/api/teacher/getNotify').then(
+    let sendUrl = $$.getStore('user').userRoleName === '学生' ? '/student/getNotify' : '/teacher/getNotify'
+    $$.get(sendUrl).then(
       resp => {
         this.setState({
           notifyData: resp.data
@@ -33,7 +49,7 @@ export default class Home extends BaseComponent {
 
   //获取最新评论
   getComment = () => {
-    $$.get('http://192.168.0.8:8010/api/topic/queryByUserId/T000000001').then(
+    $$.get('/topic/queryByUserId/T000000001').then(
       resp => {
         let data = []
         resp.data.forEach((item,index) => {
@@ -49,16 +65,11 @@ export default class Home extends BaseComponent {
   }
 
   render() {
-    const {notifyData, commentData} = this.state
-    // const data = [
-    //   {title:'刘伟信', description:"嵌入式设计与开发-物联作业：完成实验五实验报告"},
-    //   {title:'刘伟信', description:"2019年5月7日嵌入式课程设计-物联上课地点改为C409"},
-    //   {title:'刘伟信', description:"2019年5月7日嵌入式课程设计-物联/嵌入式课程设计-网络课程资料已上传"}
-    // ]
+    const {notifyData, commentData, isMobile} = this.state
     return (
       <Layout className="full-layout page home-page">
         <Content>
-          <Carousel autoplay>
+          <Carousel autoplay  className={isMobile? 'ant-carousel slick-slide': ''}>
             <div className='back-one'><div className='image-one'><h3>1</h3></div></div>
             <div className='back-two'><div className='image-two'><h3>2</h3></div></div>
             <div className='back-three'><div className='image-three'><h3>3</h3></div></div>

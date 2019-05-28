@@ -33,7 +33,7 @@ class changePassword extends BaseComponent {
           },
           payload: {
             method: 'PUT',
-            url: 'http://192.168.0.8:8010/api/user/user',
+            url: 'api/user/user',
             data: {
               "userPassword": values.password,
               "userId": $$.getStore("user").userId
@@ -52,7 +52,7 @@ class changePassword extends BaseComponent {
   compareToFirstPassword = (rule, value, callback) => {
     const form = this.props.form;
     if (value && value !== form.getFieldValue('password')) {
-      callback('Two passwords that you enter is inconsistent!');
+      callback('密码输入不一致!');
     } else {
       callback();
     }

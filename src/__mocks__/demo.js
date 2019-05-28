@@ -18,19 +18,19 @@ export default ({fetchMock, delay, mock, toSuccess, toError}) => {
 
   return {
     // 一般用法
-    'GET /api/getUserInfo': {
+    'GET /getUserInfo': {
       name: '小雨',
       sex: '男',
       age: 18,
     },
     // 省略 method, 模拟真实请求延迟效果
-    '/api/getUsers': delay([
+    '/getUsers': delay([
       { name: 'jonn' },
       { name: 'weiq' },
     ]),
     // 表格带分页, 写成函数形式可以使用请求参数，
     // 更真实的模拟后端数据处理业务
-    '/api/userInfo/getList': (options) => {
+    '/userInfo/getList': (options) => {
       const body = JSON.parse(options.body);
       const pageNum = body.pageNum;
       const idbase = (pageNum - 1) * 10 + 1;

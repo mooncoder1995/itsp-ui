@@ -19,11 +19,12 @@ export default class Lessons extends BaseComponent {
     dataSrc: '',
     visible: false,
     allCourse: [],
-    lessonSource: []
+    lessonSource: [],
   }
 
   componentDidMount() {
     $$.removeStore('lessonItem')
+    this.judgeIsMobile()
     this.getAllCourseNames()
     const self = this;
     document.addEventListener('lazybeforeunveil', ({target}) => {
@@ -35,8 +36,8 @@ export default class Lessons extends BaseComponent {
   getAllCourseNames() {
     const {dispatch, lessons} = this.props
     const resUrl = ($$.getStore('user').userRoleName === "学生")
-      ? 'http://192.168.0.8:8010/api/student/allCourseSelect'
-      : 'http://192.168.0.8:8010/api/teacher/allCourseSelect'
+      ? '/student/allCourseSelect'
+      : '/teacher/allCourseSelect'
     dispatch({
       type: 'lessons/@request',
       afterResponse: resp => resp.data,
@@ -86,8 +87,8 @@ export default class Lessons extends BaseComponent {
                 }
               >
                 <Meta
-                  title={item.courseName}
-                  // description={item.courseRemarks}
+                  // title={item.courseName}
+                  description={item.courseName}
                 />
               </Card>
             )}

@@ -123,6 +123,7 @@ class LeftSideBar extends PureComponent {
     if (!menusData) {
       return [];
     }
+
     return menusData
       .filter(item => item.name && !item.hideInMenu)
       .map(item => {
@@ -214,10 +215,11 @@ class LeftSideBar extends PureComponent {
           <header className="sidebar-header">
             <div className="userlogged clearfix">
               <Icon>
-                {user.userName
-                && <Avatar shape="square" size={64} style={{ backgroundColor: '#535a61'}}>
-                  {user.userName.substring(0,1)}
-                  </Avatar>}
+                {/*{user.userName*/}
+                {/*&& <Avatar shape="square" size={64} style={{ backgroundColor: '#535a61'}}>*/}
+                  {/*{user.userName.substring(0,1)}*/}
+                  {/*</Avatar>}*/}
+                <Avatar size={66} src={user.userImg}/>
               </Icon>
               <div className="user-details">
                 <span>{user.userName}</span>

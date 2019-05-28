@@ -59,5 +59,5 @@ export function getFlatMenu(menus) {
 }
 
 export async function getMenu(payload) {
-  return $$.get('http://192.168.0.8:8010/api/user/menu', payload);
+  return $$.get('/user/menu', payload);
 }

@@ -39,21 +39,21 @@ export default {
      * 实际中应该通过服务端反回的response中的
      * 成功失败标识来进行区分
      */
-    // afterResponse: response => {
-    //   const { success, message } = response;
-    //   if (success) {
-    //     return response;
-    //   } else {
-    //     try {
-    //         throw new Error(message);
-    //     } catch (e) {
-    //         $$.removeStore('user');
-    //         return response;
-    //         notice.error(`请输入正确的学/工号或密码！`);
-    //     }
-    //
-    //   }
-    // },
+    afterResponse: response => {
+      const { success, message } = response;
+      if (success) {
+        return response;
+      } else {
+        try {
+            throw new Error(message);
+        } catch (e) {
+            $$.removeStore('user');
+            return response;
+            // notice.error(`请输入正确的学/工号或密码！`);
+        }
+
+      }
+    },
     errorHandle: err => {
       // 请求错误全局拦截
       if (err.name === 'RequestError') {

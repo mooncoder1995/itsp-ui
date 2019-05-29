@@ -42,7 +42,7 @@ export default class Check extends BaseComponent {
             payload: {
                 valueField: 'courseInfo',
                 method: 'GET',
-                url: 'http://59.67.107.169:8010/api/teacher/allCourseSelect'
+                url: 'http://192.168.43.191:8010/api/teacher/allCourseSelect'
             }
         });
     };
@@ -57,7 +57,7 @@ export default class Check extends BaseComponent {
             payload: {
                 valueField: 'courseTimeInfo',
                 method: 'GET',
-                url: 'http://59.67.107.169:8010/api/teacher/course/' + value
+                url: 'http://192.168.43.191:8010/api/teacher/course/' + value
             }
 
         })
@@ -82,7 +82,7 @@ export default class Check extends BaseComponent {
             payload: {
                 valueField: 'dataList',
                 method: 'GET',
-                url: 'http://59.67.107.169:8010/api/teacher/checkIn/' + value
+                url: 'http://192.168.43.191:8010/api/teacher/checkIn/' + value
             }
         });
     };
@@ -109,7 +109,7 @@ export default class Check extends BaseComponent {
             },
             payload: {
                 method: 'DELETE',
-                url: `http://59.67.107.169:8010/api/file/file?perCourseId=${perCourseId}&userId=${userId}`
+                url: `http://192.168.43.191:8010/api/file/file?perCourseId=${perCourseId}&userId=${userId}`
             },
         });
     };

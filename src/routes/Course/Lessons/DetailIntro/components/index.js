@@ -39,8 +39,8 @@ export default class Intro extends BaseComponent {
   getOneCourseDetail = () => {
     const courseId = $$.getStore('lessonItem').courseId
     const resUrl = ($$.getStore('user').userRoleName === "学生")
-      ? `http://59.67.107.169:8010/api/student/course/${courseId}`
-      : `http://59.67.107.169:8010/api/teacher/course/${courseId}`
+      ? `http://192.168.43.191:8010/api/student/course/${courseId}`
+      : `http://192.168.43.191:8010/api/teacher/course/${courseId}`
     this.props.dispatch({
       type: 'intro/@request',
       afterResponse: resp => resp.data,

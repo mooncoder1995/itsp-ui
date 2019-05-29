@@ -45,7 +45,7 @@ export default class Edit extends BaseComponent {
             payload: {
                 valueField: 'allCourseInfo',
                 method: 'GET',
-                url: 'http://59.67.107.169:8010/api/student/allHomework'
+                url: 'http://192.168.43.191:8010/api/student/allHomework'
             }
         });
     }
@@ -58,7 +58,7 @@ export default class Edit extends BaseComponent {
             payload: {
                 valueField: 'courseInfo',
                 method: 'GET',
-                url: 'http://59.67.107.169:8010/api/student/allCourseSelect'
+                url: 'http://192.168.43.191:8010/api/student/allCourseSelect'
             }
         });
     };
@@ -73,7 +73,7 @@ export default class Edit extends BaseComponent {
             payload: {
                 valueField: 'courseTimeInfo',
                 method: 'GET',
-                url: 'http://59.67.107.169:8010/api/student/course/' + value
+                url: 'http://192.168.43.191:8010/api/student/course/' + value
             }
 
         })
@@ -99,7 +99,7 @@ export default class Edit extends BaseComponent {
             },
             payload: {
                 method: 'DELETE',
-                url: `http://59.67.107.169:8010/api/file/file?perCourseId=${perCourseId}&userId=${$$.getStore("user").userId}`
+                url: `http://192.168.43.191:8010/api/file/file?perCourseId=${perCourseId}&userId=${$$.getStore("user").userId}`
             },
         });
     }

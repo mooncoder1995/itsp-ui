@@ -69,7 +69,7 @@ export default class TopicIntro extends BaseComponent {
       payload: {
         valueField: 'topicDetail',
         method: 'GET',
-        url: `http://59.67.107.169:8010/api/topic/queryTopic/${$$.getStore('topicId')}`
+        url: `http://192.168.43.191:8010/api/topic/queryTopic/${$$.getStore('topicId')}`
       }
     })
   }
@@ -87,7 +87,7 @@ export default class TopicIntro extends BaseComponent {
       },
       payload: {
         method: 'POST',
-        url: `http://59.67.107.169:8010/api/reply/publicReply`,
+        url: `http://192.168.43.191:8010/api/reply/publicReply`,
         data: {
           replyTopicId: $$.getStore('topicId'),
           replyUserId: $$.getStore('user').userId,

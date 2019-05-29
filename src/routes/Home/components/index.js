@@ -38,8 +38,8 @@ export default class Home extends BaseComponent {
   //获取最近课程通知
   getNotify = () => {
     let sendUrl = $$.getStore('user').userRoleName === '学生'
-      ? 'http://59.67.107.169:8010/api/student/getNotify'
-      : 'http://59.67.107.169:8010/api/teacher/getNotify'
+      ? 'http://192.168.43.191:8010/api/student/getNotify'
+      : 'http://192.168.43.191:8010/api/teacher/getNotify'
     $$.get(sendUrl).then(
       resp => {
         this.setState({
@@ -51,7 +51,7 @@ export default class Home extends BaseComponent {
 
   //获取最新评论
   getComment = () => {
-    $$.get('http://59.67.107.169:8010/api/topic/queryByUserId/T000000001').then(
+    $$.get('http://192.168.43.191:8010/api/topic/queryByUserId/T000000001').then(
       resp => {
         let data = []
         resp.data.forEach((item,index) => {

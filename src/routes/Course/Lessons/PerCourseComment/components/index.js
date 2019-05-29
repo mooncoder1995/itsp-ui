@@ -59,7 +59,7 @@ export default class PerComment extends BaseComponent {
 
   //获取指定课程评论
   getComment() {
-    $$.get(`http://59.67.107.169:8010/api/topic/queryByPerCourseId/${$$.getStore('perCourseId')}`)
+    $$.get(`http://192.168.43.191:8010/api/topic/queryByPerCourseId/${$$.getStore('perCourseId')}`)
       .then(resp =>
         this.setState({
           commentInfo: resp.data
@@ -77,7 +77,7 @@ export default class PerComment extends BaseComponent {
       topicPercourseId: $$.getStore('perCourseId'),
       topicContent: this.state.value
     }
-    $$.post(`http://59.67.107.169:8010/api/topic/publicTopic`, data).then(
+    $$.post(`http://192.168.43.191:8010/api/topic/publicTopic`, data).then(
       resp => {
         if (resp.icon === 'success') {
           message.success(resp.message)

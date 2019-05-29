@@ -33,7 +33,7 @@ class changePassword extends BaseComponent {
           },
           payload: {
             method: 'PUT',
-            url: 'http://59.67.107.169:8010/api/user/user',
+            url: 'http://192.168.43.191:8010/api/user/user',
             data: {
               "userPassword": values.password,
               "userId": $$.getStore("user").userId

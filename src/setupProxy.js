@@ -7,8 +7,8 @@ module.exports = function(app) {
   app.use(
     proxy('/api', {
       // target: 'http://59.67.107.169:8010',
-      // target: 'http://',
-      target: 'http://localhost:8010',
+      target: 'http://192.168.43.191:8010',
+      // target: 'http://localhost:8010',
       changeOrigin: true,
       // pathRewrite: {
       //   '^/api': ''

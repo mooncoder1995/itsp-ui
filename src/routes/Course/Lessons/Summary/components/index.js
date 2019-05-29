@@ -35,8 +35,8 @@ export default class Lessons extends BaseComponent {
   getAllCourseNames() {
     const {dispatch, lessons} = this.props
     const resUrl = ($$.getStore('user').userRoleName === "学生")
-      ? 'http://59.67.107.169:8010/api/student/allCourseSelect'
-      : 'http://59.67.107.169:8010/api/teacher/allCourseSelect'
+      ? 'http://192.168.43.191:8010/api/student/allCourseSelect'
+      : 'http://192.168.43.191:8010/api/teacher/allCourseSelect'
     dispatch({
       type: 'lessons/@request',
       afterResponse: resp => resp.data,
